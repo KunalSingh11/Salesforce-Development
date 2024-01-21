@@ -1,7 +1,7 @@
 public with sharing class ConditionalStatementsClass {
     public static void myMethod() {
         
-        Double n = Math.Random()*200; // Math.random() returns a double between [0,1)
+        Double n = Math.Random()*200; // Math.random() returns a double between [0.0,1.0)
         System.debug('n = '+n);
         // Top to bottom conditions are evaluated to true or false
         // As soon as a condition in false if tree is exited 
