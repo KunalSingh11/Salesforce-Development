@@ -4,7 +4,7 @@ public with sharing class ConditionalStatementsClass {
         Double n = Math.Random()*200; // Math.random() returns a double between [0,1)
         System.debug('n = '+n);
         // Top to bottom conditions are evaluated to true or false
-        // As soon as a condition is truee if tree is exited 
+        // As soon as a condition is true, if tree is exited 
         if (n>300) {
             System.debug('Number is greater than 300');
         }
